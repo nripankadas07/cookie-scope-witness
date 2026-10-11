@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cookie-scope-witness"
+version = "0.1.0"
+description = "Explain host-only/domain, slash-boundary path and secure eligibility for each supplied cookie and request."
+requires-python = ">=3.10"
+license = "MIT"
+readme = "README.md"
+authors = [{name = "Dr. Nripanka Das", email = "nripankadas@gmail.com"}]
+dependencies = []
+[project.scripts]
+cookie-scope-witness = "cookie_scope_witness:main"
+[tool.setuptools]
+py-modules = ["cookie_scope_witness"]

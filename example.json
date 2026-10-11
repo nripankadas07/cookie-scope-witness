@@ -1,0 +1,22 @@
+{
+  "cookies": [
+    {
+      "id": "session",
+      "domain": "example.com",
+      "path": "/app",
+      "host_only": false,
+      "secure": true
+    },
+    {
+      "id": "local",
+      "domain": "example.com",
+      "path": "/",
+      "host_only": true,
+      "secure": false
+    }
+  ],
+  "requests": [
+    "https://api.example.com/app/item",
+    "http://example.com/apple"
+  ]
+}
